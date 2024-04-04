@@ -1,0 +1,33 @@
+.form-input {
+    border: 1px solid #6666e2;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-input-invalid {
+    border-color: #ff0000;
+}
+
+.form-input[type='submit'] {
+    border-radius: 30px;
+    background-color: #6666e2;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 30px;
+    max-width: 250px;
+    letter-spacing: 0.2px;
+}
+
+.form-input-disabled[type='submit'] {
+    background: #605f5f;
+    pointer-events: none;
+    opacity: 0.7;
+}
+
+.form-input[type='submit']:hover {
+    background-color: #414187;
+    transition: background-color 0.3s ease;
+}
